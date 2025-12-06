@@ -63,7 +63,5 @@ for string in strings:
         i = res[0][1]
         muls.append(res[1])
 
-print(muls)
-
 ans = sum(a * b for (a, b) in muls)
 print(ans)
